@@ -11,6 +11,6 @@ namespace webapi.Context
 
         }
 
-        public DbSet<Product> Test { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
 }
