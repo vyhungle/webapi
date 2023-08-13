@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{AB5F1868-6A1C-43EE-9981-A6A606B6F38C}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/vyhungle/Documents/Dev/webapi/webapi/Program.cs" relfile="webapi/Program.cs" line="15" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.webapi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="webapi/Program.cs">
+    <Files>
+      <File FileName="webapi/Program.cs" Line="15" Column="1" />
+      <File FileName="webapi/Context/ApplicationDbContext.cs" Line="7" Column="50" />
+      <File FileName="webapi/appsettings.json" Line="11" Column="1" />
+      <File FileName="webapi/Model/Product.cs" Line="13" Column="35" />
+      <File FileName="webapi/appsettings.Development.json" Line="11" Column="22" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="webapi" expanded="True">
+            <Node name="webapi" expanded="True" selected="True">
+              <Node name="Context" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>
