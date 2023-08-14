@@ -13,7 +13,9 @@
           "Microsoft.EntityFrameworkCore.Tools": "7.0.10",
           "Newtonsoft.Json": "13.0.3",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.4",
-          "Swashbuckle.AspNetCore": "6.5.0"
+          "Swashbuckle.AspNetCore": "6.5.0",
+          "business": "1.0.0",
+          "model": "1.0.0"
         },
         "runtime": {
           "webapi.dll": {}
@@ -326,6 +328,21 @@
             "fileVersion": "7.0.22.51805"
           }
         }
+      },
+      "business/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.10",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.4",
+          "model": "1.0.0"
+        },
+        "runtime": {
+          "business.dll": {}
+        }
+      },
+      "model/1.0.0": {
+        "runtime": {
+          "model.dll": {}
+        }
       }
     }
   },
@@ -551,6 +568,16 @@
       "sha512": "sha512-DaGSsVqKsn/ia6RG8frjwmJonfos0srquhw09TlT8KRw5I43E+4gs+/bZj4K0vShJ5H9imCuXupb4RmS+dBy3w==",
       "path": "system.text.json/7.0.0",
       "hashPath": "system.text.json.7.0.0.nupkg.sha512"
+    },
+    "business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

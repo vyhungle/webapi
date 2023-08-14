@@ -523,6 +523,31 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.10",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.4",
+          "model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/business.dll": {}
+        }
+      },
+      "model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/model.dll": {}
+        }
       }
     }
   },
@@ -1534,6 +1559,16 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "business/1.0.0": {
+      "type": "project",
+      "path": "../business/business.csproj",
+      "msbuildProject": "../business/business.csproj"
+    },
+    "model/1.0.0": {
+      "type": "project",
+      "path": "../model/model.csproj",
+      "msbuildProject": "../model/model.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1543,7 +1578,9 @@
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.10",
       "Newtonsoft.Json >= 13.0.3",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 7.0.4",
-      "Swashbuckle.AspNetCore >= 6.5.0"
+      "Swashbuckle.AspNetCore >= 6.5.0",
+      "business >= 1.0.0",
+      "model >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1571,7 +1608,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/vyhungle/Documents/Dev/webapi/business/business.csproj": {
+              "projectPath": "/Users/vyhungle/Documents/Dev/webapi/business/business.csproj"
+            },
+            "/Users/vyhungle/Documents/Dev/webapi/model/model.csproj": {
+              "projectPath": "/Users/vyhungle/Documents/Dev/webapi/model/model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

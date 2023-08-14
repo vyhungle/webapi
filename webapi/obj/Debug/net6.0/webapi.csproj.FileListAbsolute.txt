@@ -140,3 +140,7 @@ C:/DEV/webapi/webapi/obj/Debug/net6.0/refint/webapi.dll
 C:/DEV/webapi/webapi/obj/Debug/net6.0/webapi.pdb
 C:/DEV/webapi/webapi/obj/Debug/net6.0/webapi.genruntimeconfig.cache
 C:/DEV/webapi/webapi/obj/Debug/net6.0/ref/webapi.dll
+/Users/vyhungle/Documents/Dev/webapi/webapi/bin/Debug/net6.0/business.dll
+/Users/vyhungle/Documents/Dev/webapi/webapi/bin/Debug/net6.0/model.dll
+/Users/vyhungle/Documents/Dev/webapi/webapi/bin/Debug/net6.0/business.pdb
+/Users/vyhungle/Documents/Dev/webapi/webapi/bin/Debug/net6.0/model.pdb
