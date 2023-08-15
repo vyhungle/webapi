@@ -1,0 +1,17 @@
+/Users/vyhungle/Documents/Dev/webapi/business/bin/Debug/net7.0/business.deps.json
+/Users/vyhungle/Documents/Dev/webapi/business/bin/Debug/net7.0/business.dll
+/Users/vyhungle/Documents/Dev/webapi/business/bin/Debug/net7.0/business.pdb
+/Users/vyhungle/Documents/Dev/webapi/business/bin/Debug/net7.0/model.dll
+/Users/vyhungle/Documents/Dev/webapi/business/bin/Debug/net7.0/model.pdb
+/Users/vyhungle/Documents/Dev/webapi/business/obj/Debug/net7.0/business.csproj.AssemblyReference.cache
+/Users/vyhungle/Documents/Dev/webapi/business/obj/Debug/net7.0/business.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vyhungle/Documents/Dev/webapi/business/obj/Debug/net7.0/business.AssemblyInfoInputs.cache
+/Users/vyhungle/Documents/Dev/webapi/business/obj/Debug/net7.0/business.AssemblyInfo.cs
+/Users/vyhungle/Documents/Dev/webapi/business/obj/Debug/net7.0/business.csproj.CoreCompileInputs.cache
+/Users/vyhungle/Documents/Dev/webapi/business/obj/Debug/net7.0/business.csproj.CopyComplete
+/Users/vyhungle/Documents/Dev/webapi/business/obj/Debug/net7.0/business.dll
+/Users/vyhungle/Documents/Dev/webapi/business/obj/Debug/net7.0/refint/business.dll
+/Users/vyhungle/Documents/Dev/webapi/business/obj/Debug/net7.0/business.pdb
+/Users/vyhungle/Documents/Dev/webapi/business/obj/Debug/net7.0/ref/business.dll
+/Users/vyhungle/Documents/Dev/webapi/business/bin/Debug/net7.0/business.runtimeconfig.json
+/Users/vyhungle/Documents/Dev/webapi/business/obj/Debug/net7.0/business.genruntimeconfig.cache

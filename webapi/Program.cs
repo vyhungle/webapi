@@ -1,6 +1,7 @@
-﻿using webapi.Context;
+﻿using business.services;
+using business.services.Interface;
 using Microsoft.EntityFrameworkCore;
-
+using webapi.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +18,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddSingleton<IProductService, ProductService>();
+//builder.Services.AddSingleton<DbContext, ApplicationDbContext>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -31,6 +35,8 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+
 
 app.Run();
 

@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RoND6yNg8gEFjTQK+hOU4J+Hizq5VqXurxsLOuXKsfn3OdV5rdZLucSrBf0/wBaJP6xp4P6e/En1lpqNTmjbZQ==",
+  "dgSpecHash": "UHIPdrexvX7neDnmsLwZeOuygtzF40SrmMH4xvoqK2EBzJGoxv6M5hAGzmEeS6nNE5kJBvoPLWmHrc/bLwUwRw==",
   "success": true,
   "projectFilePath": "/Users/vyhungle/Documents/Dev/webapi/model/model.csproj",
-  "expectedPackageFiles": [
-    "/Users/vyhungle/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.21/microsoft.aspnetcore.app.ref.6.0.21.nupkg.sha512",
-    "/Users/vyhungle/.nuget/packages/microsoft.netcore.app.ref/6.0.21/microsoft.netcore.app.ref.6.0.21.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
