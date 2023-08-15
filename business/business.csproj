@@ -24,9 +24,11 @@
   <ItemGroup>
     <None Remove="services\" />
     <None Remove="services\Interface\" />
+    <None Remove="DB\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="services\" />
     <Folder Include="services\Interface\" />
+    <Folder Include="DB\" />
   </ItemGroup>
 </Project>

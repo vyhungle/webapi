@@ -1,4 +1,5 @@
 ﻿using System;
+using business.DB;
 using business.services.Interface;
 using Microsoft.EntityFrameworkCore;
 using webapi.Context;
@@ -8,15 +9,15 @@ namespace business.services
 {
 	public class ProductService : IProductService
     {
-        private readonly ApplicationDbContext _dbContext;
-  //      public ProductService(ApplicationDbContext dbContext)
-		//{
-		//	//_dbContext = dbContext;	
-		//}
-		public List<Product> GetProducts()
+        private readonly ProductDB _productDB;
+        public ProductService(ApplicationDbContext context)
+        {
+            _productDB = new ProductDB(context);
+        }
+
+        public List<Product> GetProducts()
 		{
-		var product=	_dbContext.Products.ToList();
-            return new List<Product>();
+		    return _productDB.GetProducts();
         }
 	}
 }

@@ -1,6 +1,7 @@
 ﻿using System;
 using business.services.Interface;
 using Microsoft.AspNetCore.Mvc;
+using webapi.Model;
 
 namespace webapi.Controllers
 {
@@ -17,10 +18,9 @@ namespace webapi.Controllers
         }
 
         [HttpGet]
-        public int GetProduct()
+        public List<Product> GetProduct()
         {
-            var product = _productService.GetProducts();
-            return 0;
+            return _productService.GetProducts();
         }
     }
 
