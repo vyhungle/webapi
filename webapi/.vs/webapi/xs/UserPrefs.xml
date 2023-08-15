@@ -1,38 +1,31 @@
-﻿<Properties StartupConfiguration="{4BC0E0A7-B314-4F19-A57D-D2C9F14F6D4F}|Default">
-  <MultiItemStartupConfigurations />
+﻿<Properties StartupConfiguration="{285CF8F7-4F42-4358-B983-9683D1E8EE7D}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.webapi PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../../usr/local/share/dotnet/sdk/7.0.307/Microsoft.Common.CurrentVersion.targets">
     <Files>
       <File FileName="../model/ViewModel/Product.cs" />
       <File FileName="../model/ViewModel/Customer.cs" />
       <File FileName="../../../../../../usr/local/share/dotnet/sdk/7.0.307/Microsoft.Common.CurrentVersion.targets" Line="4862" Column="5" />
-      <File FileName="../business/Migrations/20230814142807_initial.cs" />
       <File FileName="Program.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="webapi">
-            <Node name="business">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
+            <Node name="model">
+              <Node name="ViewModel" expanded="True">
+                <Node name="Product.cs" selected="True" />
               </Node>
             </Node>
-            <Node name="webapi">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
-            </Node>
+            <Node name="webapi" expanded="True" />
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.webapi PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
